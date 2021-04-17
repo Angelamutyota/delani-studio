@@ -1,0 +1,72 @@
+.intro{
+   background-size: cover;
+   width: 80%;
+   height: 600px;
+   margin-left: 150px;
+   text-align: center;
+   margin-top: 20px;
+}
+#logo {
+    margin-top: 150px;
+}
+#h1 {
+    color: white;
+    margin-top: 20px;
+}
+#h2 {
+    color: white;
+    margin-top: 20px;
+}
+#p1 {
+    color: white;
+}
+#mouse {
+    margin-top: 50px;
+}
+.about {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 15px;
+}
+.two {
+    text-align: center;
+    background-size: cover;
+    width: 80%;
+    height: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 80px;
+}
+#p2 {
+    color: white;
+    margin-top: 20px;
+}
+#p3 {
+    color: white;
+}
+#p4 {
+    color: white;
+}
+#service {
+    color: white;
+    height: 30px;
+    text-align: center;
+}
+#info {
+    text-align: center;
+    margin-top: 50px;
+}
+.hide1 {
+    display: none;
+}
+.hide2 {
+    display: none;
+}
+.hide3 {
+    display: none;
+}
+.three {
+    margin: 50px;
+    margin-left: 200px;
+    display: flex;
+}
