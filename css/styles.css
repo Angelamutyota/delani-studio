@@ -70,3 +70,54 @@
     margin-left: 200px;
     display: flex;
 }
+#port {
+    text-align: center;
+    margin-top: 60px;
+}
+.form {
+    background-size: cover;
+    text-align: center;
+    width: 80%;
+    height: 400px;
+    margin-left: 150px;
+    color: white;
+    display: block;
+}
+#contact {
+    margin-top: 50px;
+}
+.row2 {
+    display: inline-block;
+}
+#name {
+    background-color: transparent;
+}
+#email {
+    background-color: transparent;
+}
+#message {
+    background-color: transparent;
+}
+#sub {
+    background-color: transparent;
+}
+.media {
+    position: absolute;
+    left: 28%;
+    margin: 10px;
+    padding: 10px;
+}
+li {
+    list-style: none;
+    margin: 10px 10px;
+    display: inline-block;
+    text-align: center;
+}
+.text {
+    text-align: center;
+    padding-top: 85px;
+    margin: 10px;
+  }
+.container:hover.image {
+    opacity: 1;
+}
