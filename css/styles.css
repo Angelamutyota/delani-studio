@@ -20,9 +20,6 @@
 #p1 {
     color: white;
 }
-#mouse {
-    margin-top: 50px;
-}
 .about {
     text-align: center;
     margin-top: 80px;
@@ -117,7 +114,25 @@ li {
     text-align: center;
     padding-top: 85px;
     margin: 10px;
-  }
-.container:hover.image {
-    opacity: 1;
 }
+#mouse-click{
+    padding-top : 22px;
+    margin-top: 10%;
+    padding-bottom: 30px; 
+  }
+  #mouse-click {
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-55px);
+    }
+    60% {
+      transform: translateY(-45px);
+    }
+}
+
